@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* *{
+  outline : 1px solid red;
+} */
+
+body{
+  overflow-x: hidden;
+}
+
+.container{
+  height : 200vh;
+  width : 100%;
+  background-color: rgb(118, 116, 116);
+  
+}
