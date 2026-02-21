@@ -12,7 +12,7 @@ body{
 .container{
   height : 200vh;
   width : 100vw;
-  overflow-x ; hidden;
+  overflow-x : hidden;
   background-color: rgb(118, 116, 116);
   
 }
