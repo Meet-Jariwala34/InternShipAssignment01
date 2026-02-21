@@ -6,11 +6,13 @@
 
 body{
   overflow-x: hidden;
+  max-width : 100%;
 }
 
 .container{
   height : 200vh;
-  width : 100%;
+  width : 100vw;
+  overflow-x ; hidden;
   background-color: rgb(118, 116, 116);
   
 }
