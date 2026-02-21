@@ -15,13 +15,13 @@ function App() {
 
     //on load animation for the whole container
 
-    gsap.from('.container',{
-      opacity : 0,
-    })
+    // gsap.from('.container',{
+    //   opacity : 0,
+    // })
 
     //animation for the cover to move from left to right as we scroll down
     gsap.to('.cover', {
-      x : '99%',
+      x : '130%',
       ease : 'none',
       scrollTrigger : {
         trigger : '.upperSection',
@@ -37,8 +37,8 @@ function App() {
       ease : 'none',
       scrollTrigger : {
         trigger : '.upperSection',
-        start : 'top -25%',
-        end : 'top -35%',
+        start : 'top -125%',
+        end : 'top -135%',
         scrub : true,
       }
     })
@@ -48,8 +48,8 @@ function App() {
       ease : 'none',
       scrollTrigger : {
         trigger : '.upperSection',
-        start : 'top -10%',
-        end : 'top -15%',
+        start : 'top -110%',
+        end : 'top -115%',
         scrub : true,
       }
     })
@@ -59,8 +59,8 @@ function App() {
       ease : 'none',
       scrollTrigger : {
         trigger : '.upperSection',
-        start : 'top -40%',
-        end : 'top -50%',
+        start : 'top -140%',
+        end : 'top -150%',
         scrub : true,
       }
     })
@@ -70,26 +70,20 @@ function App() {
       ease : 'none',
       scrollTrigger : {
         trigger : '.upperSection',
-        start : 'top -70%',
-        end : 'top -80%',
+        start : 'top -180%',
+        end : 'top -190%',
         scrub : true,
       }
     })
 
     
 
-  } ,[]); 
-
-  
-  
+  });
 
   return (
-    
-      //container : height 200vh to make the page scrollable
-      <div className='container'>
-
-        {/* on which start and end is calculated / tracked */}
-        <div className='upperSection h-screen w-screen relative '>
+    <div className='container'>
+      {/* on which start and end is calculated / tracked */}
+      <div className='upperSection w-screen relative '>
 
           {/* Putting the road and title on their position */}
           <div className='track fixed h-full w-full top-0 left-0 flex items-center'>
@@ -128,7 +122,6 @@ function App() {
           </div>
         </div>
       </div>
-    
   )
 }
 
