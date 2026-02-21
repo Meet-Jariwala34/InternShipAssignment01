@@ -1,24 +1,18 @@
 @import "tailwindcss";
 
-/* *{
-  outline : 1px solid red;
-} */
-
-html, body {
-  overflow-x: hidden !important; 
-  position: relative;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.container{
-  height : 200vh;
-  width : 100vw;
-  overflow-x : hidden;
+body{
+  overflow-x: hidden;
   position : relative;
 }
 
-.upperSection{
-  background-color:gray;
+
+.container{
+  background-color: red;
 }
+
+
+.upperSection{
+  height : 400vh;
+  background-color: gray;
+}
+
