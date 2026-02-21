@@ -4,9 +4,12 @@
   outline : 1px solid red;
 } */
 
-body{
-  overflow-x: hidden;
-  max-width : 100%;
+html, body {
+  overflow-x: hidden !important; 
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .container{
@@ -14,5 +17,5 @@ body{
   width : 100vw;
   overflow-x : hidden;
   background-color: rgb(118, 116, 116);
-  
+  position : relative;
 }
